@@ -1,0 +1,197 @@
+body {
+  font-family: "Roboto:200", sans-serif;
+  background-color: #fff8ed;
+}
+
+hr {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5px;
+  height: 20px;
+  box-shadow: 0 20px 20px -20px #7d97ad inset;
+}
+
+
+/* Standard a href size too small */
+
+div a {
+  font-size: 18px;
+}
+
+
+/* Center links in p */
+
+div p {
+  text-align: center;
+  image-resolution: from-image;
+}
+
+h1 {
+  color: #2d3c49;
+  font-family: "Roboto:400", sans-serif;
+}
+
+h2 {
+  color: #7d97ad;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  text-align: right;
+  font-size: 30px;
+  color: #2d3c49;
+}
+
+h4 {
+  text-align: center;
+  font-size: 26px;
+}
+
+
+/* Modify h1 */
+
+.title-head {
+  font-size: 60px;
+  text-align: right;
+}
+
+
+/* Modify h3 */
+
+.title-descr {
+  font-size: 26px;
+  text-align: right;
+}
+
+
+/* Modify hr */
+
+.solid {
+  background-color: #7d97ad;
+  margin-left: 0;
+  text-align: left;
+  height: 3px;
+  max-width: 195px;
+}
+
+.title-logo {
+  display: inline-block;
+  position: relative;
+  width: 9%;
+  height: 9%;
+  margin-bottom: -11.5%;
+  padding-top: 10%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.img-responsive {
+  background-color: #fafafa;
+  margin: 0 auto;
+}
+
+
+/* Adjust responsive title */
+
+@media screen and (max-width: 684px) {
+  .title-head {
+    font-size: 6vw;
+  }
+  .title-descr {
+    font-size: 4vw;
+  }
+  .title-logo {
+    margin-bottom: -17.5%;
+  }
+}
+
+@media screen and (min-width: 685px) and (max-width: 740px) {
+  .title-head {
+    font-size: 6.5vw;
+  }
+  .title-descr {
+    font-size: 3.5vw;
+  }
+  .title-logo {
+    margin-bottom: -17%;
+  }
+}
+
+@media screen and (min-width: 741px) and (max-width: 803px) {
+  .title-head {
+    font-size: 6vw;
+  }
+  .title-descr {
+    font-size: 3vw;
+  }
+  .title-logo {
+    margin-bottom: -16%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .title-logo {
+    width: 15%;
+    height: 15%;
+  }
+}
+
+@media screen and (min-width: 804px) and (max-width: 880px) {
+  .title-head {
+    font-size: 5.5vw;
+  }
+  .title-descr {
+    font-size: 2.5vw;
+  }
+  .title-logo {
+    margin-bottom: -15%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .title-logo {
+    width: 13%;
+    height: 13%;
+  }
+}
+
+@media screen and (min-width: 881px) and (max-width: 919px) {
+  .title-head {
+    font-size: 5.3vw;
+  }
+  .title-descr {
+    font-size: 2.3vw;
+  }
+  .title-logo {
+    margin-bottom: -15%;
+  }
+}
+
+@media screen and (min-width: 920px) and (max-width: 995px) {
+  .title-head {
+    font-size: 5vw;
+  }
+  .title-descr {
+    font-size: 2vw;
+  }
+  .title-logo {
+    margin-bottom: -14%;
+  }
+}
+
+@media screen and (min-width: 996px) and (max-width: 1200px) {
+  .title-logo {
+    margin-bottom: -13.5%;
+    width: 11%;
+    height: 11%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .title-logo {
+    margin-bottom: -10.5%;
+    width: 8%;
+    height: 8%;
+  }
+}
